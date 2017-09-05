@@ -8,7 +8,8 @@ public class DuckCall {
 	}
 
 	public void performDuckCall() {
-		IQuackBehavior qb = duck.getQuackBehavior();
-		qb.quack();
+//		IQuackBehavior qb = 
+		duck.getQuackBehavior().quack();
+//		qb.quack();
 	}
 }

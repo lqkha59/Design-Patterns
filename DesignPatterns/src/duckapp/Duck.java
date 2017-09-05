@@ -26,7 +26,7 @@ public abstract class Duck {
 		quackBehavior = qb;
 	}
 	
-	public void getQuackBehavior() {
+	public IQuackBehavior getQuackBehavior() {
 		return quackBehavior;
 	}
 }
